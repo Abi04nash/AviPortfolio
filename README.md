@@ -8,7 +8,7 @@ Welcome to my **personal portfolio website** – a digital space where I showcas
 
 ## 🖼️ Live Demo
 
-🔗 [Click here to view my live portfolio](https://abi04nash.github.io/New_Portfolio/)
+🔗 [Click here to view my live portfolio](https://abi04nash.github.io/AviPortfolio/)
 
 ---
 
