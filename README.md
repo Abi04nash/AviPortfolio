@@ -1,12 +1,42 @@
-# React + Vite
+# 🌐 My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my **personal portfolio website** – a digital space where I showcase who I am, what I do, and what I’ve built!
 
-Currently, two official plugins are available:
+> Built using **React.Js , React Router , CSS**, and styled with passion.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🖼️ Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 [Click here to view my live portfolio](https://abi04nash.github.io/New_Portfolio/)
+
+---
+
+## ✨ About the Project
+
+This is a responsive and modern portfolio website designed to highlight:
+
+- 💼 My projects and skills
+- 👨‍💻 Technical experience in web development and DSA
+
+It serves as both a **personal brand** and a **resume-friendly showcase**.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Role                    |
+|------------|-------------------------|
+| React      | Frontend framework      |
+| CSS        | Styling and layout      |
+| JavaScript | Component logic         |
+| JSX        | React templating syntax |
+
+
+---
+
+## 📷 Preview
+<img width="1722" height="804" alt="image" src="https://github.com/user-attachments/assets/842c1227-dd2b-4441-8889-7cd8b5e53ba5" />
+<img width="1722" height="804" alt="image" src="https://github.com/user-attachments/assets/6abe8af5-4298-4bce-a3da-3f1558720763" />
+
+
