@@ -49,7 +49,7 @@ const First = () => {
 
   return (
     <>
-      <div className='first'>
+      <div  data-aos="fade-up" className='first'>
         <div className='first1'>
           <p className='pppp' style={{fontWeight:"600" , color:"#6B26D9"}}>Hello I'm</p>
           <h1 className='HH'>Abinash Mishra</h1>
@@ -58,14 +58,14 @@ const First = () => {
 
 
         <div className='first2'>
-          <p className='pp'>Crafting modern web applications with cutting-edge technologies.</p>
-          <p className='pp'>Passionate about clean code, user experience, and innovative solutions.</p>
+          <p className='Pp'>Crafting modern web applications with cutting-edge technologies.Passionate about clean code, user experience, and innovative solutions</p>
+          {/* <p className='pp'></p> */}
         </div>
 
 
         <div className='first3'>
-          <div className='a' style={{color:"white"}}><a style={{color:"white"}} href="https://drive.google.com/file/d/1isxPRaKfDPH9ji6mzzEtd6UUWN0w-bmD/view?usp=sharing">Resume</a></div>
-          <div className='b' onClick={handleNavigation}>My Work</div>
+          <div className='a' onClick={() => window.location.href = 'https://drive.google.com/file/d/1isxPRaKfDPH9ji6mzzEtd6UUWN0w-bmD/view?usp=sharing'} style={{color:"white"}}><i class="fa-solid fa-circle-down"></i> Resume</div>
+          <div className='b' onClick={handleNavigation}><i class="fa-solid fa-briefcase"></i> My work</div>
         </div>
 
         

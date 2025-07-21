@@ -8,7 +8,7 @@ const Second = () => {
         <br />
         <br />
 
-      <div className='second'>
+      <div  data-aos="fade-up" className='second'>
         <div className='second1'>
             <h1 className='H'>About Me</h1>
     <p className='pp'>Passionate full-stack developer with 2+ years of experience building scalable web applications and leading development.</p>
@@ -54,12 +54,13 @@ const Second = () => {
                 <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>MERN</span>
                 <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Express</span>
                 <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>ShadCN</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>C++</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>C</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Cloudinary</span>
+                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>C/C++</span>
+                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Git</span>
+                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Github</span>
+                {/* <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Cloudinary</span> */}
                 <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>VS Code</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Appwrite</span>
-                {/* <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>react</span> */}
+                {/* <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Github</span> */}
+                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Figma</span>
             </div>
         </div>
       </div>

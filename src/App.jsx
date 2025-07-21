@@ -1,5 +1,5 @@
-import { useState,useEffect } from 'react'
-import { BrowserRouter as Router, Routes, Route,useLocation } from "react-router-dom";
+import { useState, useEffect } from 'react'
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import { HashRouter } from 'react-router-dom';
 import './App.css'
 import Nav from './components/Nav'
@@ -8,6 +8,8 @@ import Second from './components/Second'
 import Foot from './components/Foot'
 import Third from './components/Third';
 import Fourth from './components/Fourth';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
@@ -16,7 +18,7 @@ function AnimatedRoutes() {
 
   return (
     <div key={location.pathname} className="page">
-       <Routes>
+      <Routes>
         <Route path="/" element={<First />} />
         <Route path="/first" element={<First />} />
         <Route path="/second" element={<Second />} />
@@ -29,13 +31,23 @@ function AnimatedRoutes() {
 
 
 
-  
 
-  function App() {
+
+function App() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,  // animation duration
+      once: true      // animate only once when scrolled into view
+    });
+  }, []);
+
+
+
   const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
-  document.body.style.overflow = isOpen ? 'hidden' : 'auto';
-}, [isOpen]);
+    document.body.style.overflow = isOpen ? 'hidden' : 'auto';
+  }, [isOpen]);
 
   return (
     <HashRouter>

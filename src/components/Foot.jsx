@@ -2,7 +2,7 @@ import React from 'react'
 
 const Foot = () => {
   return (
-    <div>
+    <div className='foot'>
       <h4 style={{
     background: "linear-gradient(to right, #f308a9ff, #00bfff)", // deep purple to sky blue
     WebkitBackgroundClip: "text",

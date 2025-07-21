@@ -17,7 +17,7 @@ const Third = () => {
         <br />
         <br />
 
-            <div className='third'>
+            <div data-aos="fade-up" className='third'>
                 <div className='third1'>
                     <h1 className='H'>My Projects</h1>
                     <p className='pp'>A collection of projects that show my skills in building websites, designing user interfaces, and using modern web tools.</p>
@@ -30,13 +30,13 @@ const Third = () => {
                          <div className="proo-img-wrapper">
     <img src="./images/sociova.png" alt="" className="project-image" />
     <div className="overlay">
-      <i onClick={() => window.location.href = 'https://github.com/Abi04nash/Sociova'} className="fa-brands fa-github github-icon"></i>
+      <i onClick={() => window.location.href = 'https://github.com/Abi04nash/Sociova'} style={{cursor:"pointer"}} className="fa-brands fa-github github-icon"></i>
     </div>
   </div>
 
                         <div className='proo1'>
 
-                            <h2>Sociova</h2>
+                            <h2 style={{color:"white"}}>Sociova</h2>
                             <p>A full-stack social media web application inspired by Instagram with real-time features and responsive design.</p>
                             <div className="proo12">
                                 <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"10px" , paddingRight:"10px", borderRadius:"20px"}}>React</span>
@@ -62,13 +62,13 @@ const Third = () => {
                         <div className="proo-img-wrapper">
     <img src="./images/toogood.jpg" alt="" className="project-image" />
     <div className="overlay">
-      <i onClick={() => window.location.href = 'https://github.com/Abi04nash/TwoGoodCo-Clone-'} className="fa-brands fa-github github-icon"></i>
+      <i onClick={() => window.location.href = 'https://github.com/Abi04nash/TwoGoodCo-Clone-'} style={{cursor:"pointer"}} className="fa-brands fa-github github-icon"></i>
     </div>
   </div>
 
                         <div className='proo1'>
 
-                            <h2>UI Clone</h2>
+                            <h2 style={{color:"white"}}>UI Clone</h2>
                             <p>Landing page UI clone of Too Good Co. A simple yet clean and responsive design replicating the original layout with precision.</p>
                             <div className="proo12">
                                 <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"10px" , paddingRight:"10px", borderRadius:"20px"}}>HTML</span>
@@ -100,13 +100,13 @@ const Third = () => {
                        <div className="proo-img-wrapper">
     <img src="./images/aaaa.jpg" alt="" className="project-image" />
     <div className="overlay">
-      <i onClick={() => window.location.href = 'https://github.com/Abi04nash/New_Portfolio'} className="fa-brands fa-github github-icon"></i>
+      <i onClick={() => window.location.href = 'https://github.com/Abi04nash/AviPortfolio'} style={{cursor:"pointer"}} className="fa-brands fa-github github-icon"></i>
     </div>
   </div>
 
                         <div className='proo1'>
 
-                            <h2>Portfolio</h2>
+                            <h2 style={{color:"white"}}>Portfolio</h2>
                             <p>Designed and developed a personal portfolio website to showcase projects, skills, and accomplishments in web dev.</p>
                             <div className="proo12">
                                 <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"10px" , paddingRight:"10px", borderRadius:"20px"}}>React</span>
@@ -116,8 +116,8 @@ const Third = () => {
                                 <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"10px" , paddingRight:"10px", borderRadius:"20px"}}> FontAwesome</span>
                             </div>
                             <div className="proo13">
-                                <div onClick={() => window.location.href = 'https://github.com/Abi04nash/New_Portfolio'} > <i class="fa-brands fa-github"></i> Code</div>
-                                <div onClick={() => window.location.href = 'https://abi04nash.github.io/New_Portfolio/'} style={{background: "linear-gradient(to right, #d8b4fe, #3b82f6)"}}><i class="fa-solid fa-eye"></i> Demo</div>
+                                <div onClick={() => window.location.href = 'https://github.com/Abi04nash/AviPortfolio'} > <i class="fa-brands fa-github"></i> Code</div>
+                                <div onClick={() => window.location.href = 'https://abi04nash.github.io/AviPortfolio/'} style={{background: "linear-gradient(to right, #d8b4fe, #3b82f6)"}}><i class="fa-solid fa-eye"></i> Demo</div>
                             </div>
                         </div>
 
