@@ -13,30 +13,35 @@ const About = () => {
   return (
     <div
       style={{
-        padding: '30px',
+        padding: '25px',
         minWidth: '100%',
         margin: '0 auto',
-         backgroundColor: "#0b0b0b",
-
+        backgroundColor: "#0b0b0b",
+        border:"0.0001rem solid rgb(65, 64, 64)",
         borderRadius: '10px',
         boxShadow: '0 0 10px rgba(0,0,0,0.5)',
       }}
     >
-      <h2 style={{ color: 'white', textAlign: 'left', marginBottom: '24px' }}>
+      <p className='inhead' style={{ color: 'white', textAlign: 'left', marginBottom: '24px' }}>
         My Skills
-      </h2>
+      </p>
 
       {skills.map((skill) => (
-        <div key={skill.name} style={{ marginBottom: '20px' }}>
+        <div key={skill.name} style={{ marginBottom: '30px' }}>
           <div
             style={{
-              color: 'white',
+              color: 'rgb(240, 236, 236)',
               marginBottom: '8px',
               fontWeight: '500',
               fontSize: '15px',
+              // backgroundColor:'yellow',
+              display:'flex',
+              justifyContent:'space-between',
+              alignItems:'center'
             }}
           >
-            {skill.name}
+            <div>{skill.name}</div>
+            <div>{skill.level}%</div>
           </div>
 
           <div

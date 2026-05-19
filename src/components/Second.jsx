@@ -1,70 +1,153 @@
 import React from 'react'
 import About from './About';
+import Foot from './Foot';
+import { motion } from "framer-motion";
+
+const techStack = ["React", "Node", "MongoDB","Mongoose", "MongoAtlas", "Data Structures", "Algorithms", "C/C++", "Tailwind CSS", "JavaScript", "MERN", "Express", "Postman", "ShadCN", "Git", "HTML", "CSS", "Github", "VS Code", "Figma", "Render"];
+
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: { staggerChildren: 0.15 },
+  },
+};
+
+
+const itemVariants = {
+  hidden: { y: 30, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: { type: "spring", stiffness: 80, damping: 12 },
+  },
+};
+
+const cardHoverVariants = {
+  hover: {
+    y: 0, 
+    scale: 1, 
+    boxShadow: "0px 10px 20px rgba(0,0,0,0.2)",
+    transition: { type: "spring", stiffness: 300 }
+  }
+};
 
 
 const Second = () => {
   return (
     <>
-        <br />
-        <br />
+      <br />
+      <br />
+      <main className='container'>
+        <motion.div
+          className='second'
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.1 }}
+        >
 
-      <div  data-aos="fade-up" className='second'>
-        <div className='second1'>
+          <motion.div variants={itemVariants} className='second1'>
             <h1 className='H'>About Me</h1>
-    <p className='pp'>Passionate full-stack developer with 2+ years of experience building scalable web applications and leading development.</p>
-        </div>
+            <p className='pp'>Passionate full-stack developer with 2+ years of experience building scalable web applications and leading development.</p>
+          </motion.div>
 
 
-       <div className="second2">
-  <div className="second21">
-    <h2 style={{color:"white"}}>My Journey</h2>
-    <p style={{ color: "#8f969c" }}>Hello! I'm Abinash Mishra, a passionate Web Developer and Programmer, currently pursuing my Bachelor's degree in Information Technology at IIIT Bhubaneswar.</p>
-    <p style={{ color: "#8f969c" }}>As my interest evolved, I ventured into web development, where I found my true passion in building and maintaining intuitive and responsive web applications. I'm proficient in HTML, CSS, JavaScript, and React.js, and have expanded my skills by learning the MERN stack — MongoDB, Express.js, React.js, and Node.js.</p>
-    <p style={{ color: "#8f969c" }}>I enjoy turning creative ideas into real-world applications and continuously strive to enhance my skills in both frontend and backend development, as well as algorithmic problem-solving. My goal is to craft impactful digital solutions while growing as a developer.</p>
-   
-  </div>
- 
+          <motion.div variants={itemVariants} className="second2">
+            <div className="second21">
+              <p className='inhead' style={{ color: "white", fontSize: "1.5rem" }}>My Journey</p>
+              <p style={{ color: "#8f969c", lineHeight: "1.5rem" }}>Hello👋🏻, I'm Abinash Mishra, a passionate Web Developer and Programmer currently pursuing my Bachelor's degree in Information Technology at IIIT Bhubaneswar.</p>
+              <p style={{ color: "#8f969c", lineHeight: "1.5rem" }}>My journey in tech started with programming and problem-solving, which gradually led me to discover my passion for web development. I love building modern, responsive, and user-friendly web applications that combine creativity with functionality.</p>
+              <p style={{ color: "#8f969c", lineHeight: "1.5rem" }}>I work with technologies like HTML, CSS, JavaScript, React.js, and the MERN stack — MongoDB, Express.js, React.js, and Node.js. I’m always excited to learn new technologies, build impactful projects, and grow as a developer while creating meaningful digital experiences.</p>
 
-
-    <div className='second22'>
-    <About/>
-    </div>
+            </div>
 
 
 
- 
-</div>
+            <div className='second22'>
+              <About />
+            </div>
 
 
 
 
-        <div className='second3'>
-            <h2 style={{color:"white"}}>Technologies & Tools</h2>
+          </motion.div>
+
+
+
+
+          <motion.div variants={itemVariants} className='second3'>
+            <p className='inhead' style={{ color: "white", marginBottom: "10px" }}>Technologies & Tools</p>
 
             <div className='second31'>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>React</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Node</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Sql</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>MongoDB</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>MongoAtlas</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>HTML</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>CSS</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Tailwind</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>JavaScript</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>MERN</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Express</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>ShadCN</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>C/C++</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Git</span>
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Github</span>
-                {/* <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Cloudinary</span> */}
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>VS Code</span>
-                {/* <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Github</span> */}
-                <span  style={{ textAlign:"center" , fontWeight:"600" , display:"flex" , justifyContent:"center",  alignItems:"center", padding:"5px", paddingLeft:"15px" , paddingRight:"15px", borderRadius:"20px"}}>Figma</span>
+              {techStack.map((tech, index) => (
+                <span
+                  key={index}
+                  style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "8px", paddingLeft: "18px", paddingRight: "18px", borderRadius: "20px", cursor: "pointer" }}
+                >
+                  {tech}
+                </span>
+              ))}
             </div>
-        </div>
-      </div>
+          </motion.div>
+
+          <motion.div variants={itemVariants} className='second4'>
+
+
+           <motion.div 
+  className='second41 lc-card'
+  variants={cardHoverVariants}
+  // whileHover="hover"
+>
+              <div className='card-header'>
+                <i className="fa-solid fa-code" style={{ fontSize: '1.6rem', color: "#ffa116" }}></i>
+                <p className='inhead' style={{ fontSize: '1.4rem', color: "white" }}>LeetCode</p>
+              </div>
+              <div className='card-stats'>
+                <p><span>Max Rating</span> <strong>1891 (Top 4%)</strong></p>
+                <p><span>Problems Solved</span> <strong>800+</strong></p>
+                <p><span>Level</span> <strong style={{ color: '#ffa116' }}>Knight</strong></p>
+              </div>
+              <a href="https://leetcode.com/u/abinashmishra1401/" target="_blank" rel="noreferrer" className='card-btn'>View Profile</a>
+            </motion.div>
+
+
+            <motion.div  variants={cardHoverVariants}
+ className='second41 cf-card'>
+              <div className='card-header'>
+                <i className="fa-solid fa-chart-simple" style={{ fontSize: '1.6rem', color: "green" }}></i>
+                <p className='inhead' style={{ fontSize: '1.4rem', color: "white" }}>Codeforces</p>
+              </div>
+              <div className='card-stats'>
+                <p><span>Max Rating</span> <strong>1219</strong></p>
+                <p><span>Problems Solved</span> <strong>200+</strong></p>
+                <p><span>Level</span> <strong style={{ color: 'green' }}>Pupil</strong></p>
+              </div>
+              <a href="https://codeforces.com/profile/Avi1401" target="_blank" rel="noreferrer" className='card-btn'>View Profile</a>
+            </motion.div>
+
+
+            <motion.div  variants={cardHoverVariants}
+ className='second41 gh-card'>
+              <div className='card-header'>
+                <i className="fa-brands fa-github" style={{ fontSize: '1.6rem', color: "#318CE7" }}></i>
+                <p className='inhead' style={{ fontSize: '1.4rem', color: "white" }}>GitHub</p>
+              </div>
+              <div className='card-stats'>
+                <p><span>Repositories</span> <strong>20+</strong></p>
+                <p><span>Top Language</span> <strong>JavaScript</strong></p>
+                <p><span>Level</span> <strong style={{ color: "#318CE7" }}>Adventurer</strong></p>
+              </div>
+              <a href="https://github.com/Abi04nash" target="_blank" rel="noreferrer" className='card-btn'>View Profile</a>
+            </motion.div>
+
+          </motion.div>
+        </motion.div>
+      </main>
+      <Foot />
     </>
+
   )
 }
 

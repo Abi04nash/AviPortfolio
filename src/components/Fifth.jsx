@@ -38,7 +38,7 @@ const ContactSection = () => {
           ></textarea>
           <button
             type="submit"
-            className="px-8 py-4 bg-indigo-600 hover:bg-indigo-500 rounded font-medium transition"
+            className=" cursor-pointer px-8 py-4 bg-indigo-600 hover:bg-indigo-500 rounded font-medium transition"
           >
             Send Message
           </button>

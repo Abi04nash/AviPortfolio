@@ -5,21 +5,29 @@ import { NavLink } from "react-router-dom";
 const Nav = ({ isOpen, setIsOpen }) => {
   return (
     <>
+    {/* <main className='container'></main> */}
       <div className='nav'>
+        <main className='containe'>
         <h1 className='head' style={{
-          background: 'linear-gradient(to right, rgb(89, 89, 228), rgb(144, 144, 230), rgb(237, 91, 203), rgb(251, 153, 153))',
+          background: 'linear-gradient(to right ,rgba(98, 136, 253, 1),rgba(219, 188, 253, 1))',
           WebkitBackgroundClip: 'text',
           backgroundClip: 'text',
           color: 'transparent',
-          fontFamily: `'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif`,
-          fontSize: "2.3rem"
-        }}>Avi's Portfolio</h1>
+          fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+          fontSize: "1.5rem",
+          // fontWeight:"0",
+          paddingLeft:"15px",
+          paddingRight:"10px",
+          cursor: "pointer",
+        }}
+        onClick={() => window.location.href = "https://abi04nash.github.io/AviPortfolio/"}
+        >AvI Portfolio</h1>
 
 
-<div className='M'><h1 className="mobile-heading">AviX</h1></div>
+<div className='M'><p className="mobile-heading" onClick={() => window.location.href = "https://abi04nash.github.io/AviPortfolio/"}>AviX</p></div>
 
 <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
-        <i className={isOpen ? "fas fa-times" : "fas fa-bars"}></i>
+        <i className={isOpen ? "fa-solid fa-xmark rotate" : "fa-solid fa-bars-staggered"}></i>
       </div>
 
       
@@ -33,27 +41,36 @@ const Nav = ({ isOpen, setIsOpen }) => {
           <NavLink  style={{
     textDecoration: "none",  
   }} to="/first" className={({ isActive }) => isActive ? "active" : ""}>
-            <li><i class="fa-solid fa-house"></i> Home</li>
+            <li>
+            <span>Home</span>
+            </li>
           </NavLink>
           <NavLink style={{
     textDecoration: "none", 
   }} to="/second" className={({ isActive }) => isActive ? "active" : ""}>
-          <li><i class="fa-solid fa-user"></i> About</li>
+          <li>
+          <span>About</span>
+          </li>
             </NavLink>
              <NavLink style={{
     textDecoration: "none",  
   }} to="/third" className={({ isActive }) => isActive ? "active" : ""}>
-          <li><i class="fa-solid fa-file"></i> Project</li>
+          <li>
+          <span>Projects</span>
+          </li>
             </NavLink>
              <NavLink style={{
     textDecoration: "none",  // Removes underline
   }} to="/fourth" className={({ isActive }) => isActive ? "active" : ""}>
-          <li><i class="fa-solid fa-id-badge"></i> Contact</li>
+          <li>
+          <span>Contact</span>
+          </li>
             </NavLink>
         </div>
-
-
+        </main>
       </div>
+      
+
     </>
   )
 }

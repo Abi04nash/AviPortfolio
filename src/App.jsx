@@ -11,12 +11,11 @@ import Fourth from './components/Fourth';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-
-
 function AnimatedRoutes() {
   const location = useLocation(); // Get current route
 
   return (
+    
     <div key={location.pathname} className="page">
       <Routes>
         <Route path="/" element={<First />} />
@@ -30,18 +29,17 @@ function AnimatedRoutes() {
 }
 
 
-
-
-
 function App() {
-
   useEffect(() => {
     AOS.init({
-      duration: 1500,  // animation duration
-      once: true      // animate only once when scrolled into view
+      duration: 1000,  // animation duration
+      once: true,     // animate only once when scrolled into view
+      mirror: false,
+      anchorPlacement: 'top-bottom',
+      // disable: 'mobile'
     });
+    AOS.refresh(); 
   }, []);
-
 
 
   const [isOpen, setIsOpen] = useState(false);
@@ -56,7 +54,6 @@ function App() {
       {/* Apply blur to entire content when nav is open */}
       <div className={`main-content ${isOpen ? 'blurred' : ''}`}>
         <AnimatedRoutes />
-        <Foot />
       </div>
 
       {/* Overlay for blur effect */}
@@ -68,6 +65,3 @@ function App() {
 
 
 export default App
-
-
-
