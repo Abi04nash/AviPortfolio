@@ -36,7 +36,7 @@ const BackgroundLayer = () => {
         src={throneBg}
         alt="Tech Throne Background"
         animate={{ scale: [1, 1.05, 1] }}
-        transition={{ duration: 15, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 18, repeat: Infinity, ease: "easeInOut" }}
         style={{
           position: 'absolute',
           top: 0,
