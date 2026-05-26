@@ -1510,7 +1510,7 @@ i{
 
  .mobile-heading{
   display: block;
-  font-size: 21.5px;
+  font-size: 21px;
   font-weight: 700;
   margin-left: 0px;
   cursor: pointer;
@@ -1519,7 +1519,7 @@ i{
 
   .hamburger {
     display: block; /* Show hamburger icon */
-    font-size: 20.5px;
+    font-size: 20px;
   }
 
    .page.blurred {
