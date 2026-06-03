@@ -82,16 +82,16 @@ const Fourth = () => {
                             <p className='inhead' style={{ color: "white" }}>Send a Message</p>
 
                             <div className='input-box'>
-                                <label style={{ color: "white", fontSize: "14px", fontWeight: "600" }}>Full Name</label>
+                                <label style={{ color: "white", fontSize: "15px", fontWeight: "600" }}>Full Name</label>
                                 <input type="text" className='field' placeholder='Enter your name' name='name' required />
                             </div>
                             <div className='input-box'>
-                                <label style={{ color: "white", fontSize: "14px", fontWeight: "600" }}>Email Address</label>
+                                <label style={{ color: "white", fontSize: "15px", fontWeight: "600" }}>Email Address</label>
                                 <input type="email" className='field' placeholder='Enter your email' name='email' required />
                             </div>
 
                             <div className='input-box'>
-                                <label style={{ color: "white", fontSize: "14px", fontWeight: "600" }}>Your Message</label>
+                                <label style={{ color: "white", fontSize: "15px", fontWeight: "600" }}>Your Message</label>
                                 <textarea name="message" id="" className='field mess' placeholder='Enter your message' required></textarea>
                             </div>
                             <div  onClick={(e) => e.target.closest("form").requestSubmit()} className='buttonn' style={{ cursor: "pointer" }} type='submit'>  Send Message</div>

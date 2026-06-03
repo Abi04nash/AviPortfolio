@@ -88,7 +88,7 @@ top: 0;
 .list li {
   display: flex;
   align-items: center;
-  font-size: 14px;
+  font-size: 0.9rem;
   /* background-color: #252525; */
   color: rgb(172, 170, 170);
   gap: 5px;
@@ -501,6 +501,10 @@ background-color: rgba(255, 255, 255, 1);
   border: 0.0001rem solid rgb(65, 64, 64);
 }
 
+.second21 p{
+  font-size: 1rem;
+}
+
 .second22 {
   min-height: 50%;
   width: 45%;
@@ -759,6 +763,8 @@ background-color: rgba(255, 255, 255, 1);
 }
 .proo1 p{
   line-height: 1.5rem;
+  /* font-size: 0.9375rem; */
+  font-size: 1rem;
 }
 
 
@@ -843,7 +849,7 @@ background-color: rgba(255, 255, 255, 1);
 .third3 div {
   cursor: pointer;
   width: 25%;
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight:500;
   color: white;
   border-radius: 5px;
@@ -1310,11 +1316,11 @@ width: auto;
 }
 
 .pp {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   color: #8f969c;
   /* color: #3b82f6; */
   /* font-weight: 500; */
-  /* line-height: 1.5rem; */
+  /* line-height: 2rem; */
 
 }
 
@@ -1654,7 +1660,7 @@ body.menu-open {
    background: radial-gradient(circle, rgba(101, 15, 241, 0.10) 30%, rgba(0,0,0,0) 50%);
   /* background: none; */
 
-  background-color: rgba(0, 0, 0, 0.1); 
+  background-color: rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -1729,13 +1735,13 @@ body.menu-open {
   font-size: 2.25rem;
 }
 .pp{
-  font-size:18px;
+  font-size:1.125rem;
   gap: 5px;
   line-height: 25px;
 }
 
 .Pp{
-  font-size:18.5px;
+  font-size:1.15625rem;
   gap: 5px;
   /* color: pink; */
 }
@@ -1758,7 +1764,7 @@ body.menu-open {
   gap: 20px;
 }
 .second21 p{
-  font-size: 15px;
+  font-size: 0.9375rem;
   gap: 5px;
 }
 .second22{
@@ -1852,7 +1858,7 @@ body.menu-open {
   padding: 20px;
 }
 .proo1 p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.5rem;
 }
 

@@ -50,7 +50,7 @@ const Second = () => {
 
           <motion.div variants={itemVariants} className='second1'>
             <h1 className='H'>About Me</h1>
-            <p className='pp'>Passionate full-stack developer with 2+ years of experience building scalable web applications and leading development.</p>
+            <p className='pp'>Passionate Web developer with 2+ years of experience building scalable web applications and leading development.</p>
           </motion.div>
 
 
@@ -102,7 +102,7 @@ const Second = () => {
 >
               <div className='card-header'>
                 <i className="fa-solid fa-code" style={{ fontSize: '1.6rem', color: "#ffa116" }}></i>
-                <p className='inhead' style={{ fontSize: '1.4rem', color: "white" }}>LeetCode</p>
+                <p className='inhead' style={{ fontSize: '1.5rem', color: "white" }}>LeetCode</p>
               </div>
               <div className='card-stats'>
                 <p><span>Max Rating</span> <strong>1891 (Top 4%)</strong></p>
@@ -117,7 +117,7 @@ const Second = () => {
  className='second41 cf-card'>
               <div className='card-header'>
                 <i className="fa-solid fa-chart-simple" style={{ fontSize: '1.6rem', color: "green" }}></i>
-                <p className='inhead' style={{ fontSize: '1.4rem', color: "white" }}>Codeforces</p>
+                <p className='inhead' style={{ fontSize: '1.5rem', color: "white" }}>Codeforces</p>
               </div>
               <div className='card-stats'>
                 <p><span>Max Rating</span> <strong>1219</strong></p>
@@ -132,7 +132,7 @@ const Second = () => {
  className='second41 gh-card'>
               <div className='card-header'>
                 <i className="fa-brands fa-github" style={{ fontSize: '1.6rem', color: "#318CE7" }}></i>
-                <p className='inhead' style={{ fontSize: '1.4rem', color: "white" }}>GitHub</p>
+                <p className='inhead' style={{ fontSize: '1.5rem', color: "white" }}>GitHub</p>
               </div>
               <div className='card-stats'>
                 <p><span>Repositories</span> <strong>20+</strong></p>
