@@ -82,16 +82,16 @@ const Fourth = () => {
                             <p className='inhead' style={{ color: "white" }}>Send a Message</p>
 
                             <div className='input-box'>
-                                <label style={{ color: "white", fontSize: "15px", fontWeight: "600" }}>Full Name</label>
+                                <label style={{ color: "white", fontSize: "1rem", fontWeight: "500" }}>Full Name</label>
                                 <input type="text" className='field' placeholder='Enter your name' name='name' required />
                             </div>
                             <div className='input-box'>
-                                <label style={{ color: "white", fontSize: "15px", fontWeight: "600" }}>Email Address</label>
+                                <label style={{ color: "white", fontSize: "1rem", fontWeight: "500" }}>Email Address</label>
                                 <input type="email" className='field' placeholder='Enter your email' name='email' required />
                             </div>
 
                             <div className='input-box'>
-                                <label style={{ color: "white", fontSize: "15px", fontWeight: "600" }}>Your Message</label>
+                                <label style={{ color: "white", fontSize: "1rem", fontWeight: "500" }}>Your Message</label>
                                 <textarea name="message" id="" className='field mess' placeholder='Enter your message' required></textarea>
                             </div>
                             <div  onClick={(e) => e.target.closest("form").requestSubmit()} className='buttonn' style={{ cursor: "pointer" }} type='submit'>  Send Message</div>
@@ -109,7 +109,7 @@ const Fourth = () => {
                                     <i class="fa-solid fa-envelope "></i>
 
                                     <div>
-                                        <p style={{ color: "white", fontWeight: "600" }}>Email</p>
+                                        <p style={{ color: "white", fontWeight: "500" }}>Email</p>
                                         <p>abinashmishra1401@gmail.com</p>
                                     </div>
 
@@ -119,7 +119,7 @@ const Fourth = () => {
                                     <i class="fa-solid fa-phone-volume "></i>
 
                                     <div>
-                                        <p style={{ color: "white", fontWeight: "600" }}>Phone</p>
+                                        <p style={{ color: "white", fontWeight: "500" }}>Phone</p>
                                         <p>+(91) 7847097951</p>
                                     </div>
 
@@ -130,7 +130,7 @@ const Fourth = () => {
                                     <i class="fa-regular fa-paper-plane"></i>
 
                                     <div>
-                                        <p style={{ color: "white", fontWeight: "600" }}>Location</p>
+                                        <p style={{ color: "white",  fontWeight: "500" }}>Location</p>
                                         <p>Bhubaneswar , Odisha</p>
                                     </div>
 

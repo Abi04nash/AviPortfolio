@@ -33,7 +33,7 @@ const About = () => {
               color: 'rgb(240, 236, 236)',
               marginBottom: '8px',
               fontWeight: '500',
-              fontSize: '15px',
+              fontSize: '1rem',
               // backgroundColor:'yellow',
               display:'flex',
               justifyContent:'space-between',
