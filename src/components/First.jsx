@@ -188,7 +188,7 @@ const First = () => {
 
         <motion.main variants={itemVariants} className='contain'>
           <div className='first3'>
-            <motion.div className='a' whileHover={{ scale: 1.00 }} whileTap={{ scale: 0.95 }} onClick={() => window.location.href = 'https://drive.google.com/file/d/1RmVWenZlT0Q-h3EZNSIo88A3P4PRp3vX/view?usp=sharing'} style={{color:"white"}}> View Resume</motion.div>
+            <motion.div className='a' whileHover={{ scale: 1.00 }} whileTap={{ scale: 0.95 }} onClick={() => window.location.href = 'https://drive.google.com/file/d/1EReEhNEcJ8fLXF_kSOrIyU7fZwaAcJyi/view?usp=sharing'} style={{color:"white"}}> View Resume</motion.div>
             <motion.div whileHover={{ scale: 1.00 }} whileTap={{ scale: 0.95 }} className='b' onClick={handleNavigation}> Project Gallery</motion.div>
           </div>
         </motion.main>

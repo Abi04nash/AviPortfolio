@@ -61,6 +61,8 @@ const Third = () => {
 
 
                     <div className="third2">
+
+
                         <motion.div variants={itemVariants} className="proo">
 
                             <div className="proo-img-wrapper">
@@ -85,6 +87,41 @@ const Third = () => {
                                 <div className="proo13">
                                     <div onClick={() => window.location.href = 'https://github.com/Abi04nash/Sociova'}> <i class="fa-brands fa-github"></i> Code</div>
                                     <div onClick={() => window.location.href = 'https://sociova.onrender.com/'} style={{ background: "linear-gradient(to right, #d8b4fe, #3b82f6)" }}><i class="fa-solid fa-eye"></i> Demo</div>
+                                </div>
+                            </div>
+
+
+                        </motion.div>
+
+
+
+
+                        <motion.div variants={itemVariants} className="proo">
+
+                            <div className="proo-img-wrapper">
+                                <img src="./images/IntervueX3.png" alt="" className="project-image" />
+                                <div className="overlay">
+                                    <i onClick={() => window.location.href = 'https://github.com/Abi04nash/Sociova'} style={{ cursor: "pointer" }} className="fa-brands fa-github github-icon"></i>
+                                </div>
+                            </div>
+
+                            <div className='proo1'>
+
+                                <p className='inhead' style={{ color: "white", fontSize: "1.5rem" }}>IntervueX</p>
+                                <p>IntervueX is a full-stack SaaS platform that leverages Generative AI to deliver realistic technical interview experiences.</p>
+                                <div className="proo12">
+                                    
+                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}> Gemini 2.5 Flash</span>
+                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}> JDoodle</span>
+                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}>React.JS</span>
+                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}> MongoDB</span>
+                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}> NodeJS</span>
+                                    {/* <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}> TailwindCSS</span> */}
+                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}> Monaco Editor</span>
+                                </div>
+                                <div className="proo13">
+                                    <div onClick={() => window.location.href = 'https://github.com/Abi04nash/IntervueX'}> <i class="fa-brands fa-github"></i> Code</div>
+                                    <div onClick={() => window.location.href = 'https://intervuex-paxn.onrender.com/'} style={{ background: "linear-gradient(to right, #d8b4fe, #3b82f6)" }}><i class="fa-solid fa-eye"></i> Demo</div>
                                 </div>
                             </div>
 
@@ -132,40 +169,7 @@ const Third = () => {
 
 
 
-                        <motion.div variants={itemVariants} className="proo">
-
-                            <div className="proo-img-wrapper">
-                                <img src="./images/toogood.jpg" alt="" className="project-image" />
-                                <div className="overlay">
-                                    <i onClick={() => window.location.href = 'https://github.com/Abi04nash/TwoGoodCo-Clone-'} style={{ cursor: "pointer" }} className="fa-brands fa-github github-icon"></i>
-                                </div>
-                            </div>
-
-                            <div className='proo1'>
-
-                                <p className='inhead' style={{ color: "white", fontSize: "1.5rem" }}>UI Clone</p>
-                                <p>Landing page UI clone of Too Good Co. A simple yet clean and responsive design replicating the original layout with precision.</p>
-                                <div className="proo12">
-                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}>HTML</span>
-                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}> CSS</span>
-                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}> JavaScript</span>
-                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}> GSAP</span>
-                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}> Lenis</span>
-                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}> FramerMotion</span>
-                                </div>
-                                <div className="proo13">
-                                    <div onClick={() => window.location.href = 'https://github.com/Abi04nash/TwoGoodCo-Clone-'}> <i class="fa-brands fa-github"></i> Code</div>
-                                    <div onClick={() => window.location.href = 'https://abi04nash.github.io/TwoGoodCo-Clone-/'} style={{ background: "linear-gradient(to right, #d8b4fe, #3b82f6)" }}><i class="fa-solid fa-eye"></i> Demo</div>
-                                </div>
-                            </div>
-
-
-
-
-
-
-
-                        </motion.div>
+                       
 
 
 
@@ -177,6 +181,21 @@ const Third = () => {
                    <motion.div variants={itemVariants} className='third4' style={{ width: '100%', margin: '0 auto 4rem auto' }}>
                         <p className='inhead' style={{ color: "white", fontSize: "1.5rem", marginBottom: "20px", textAlign: "left" }}>More Projects</p>
                         <div className='small-projects-grid'>
+
+
+                             <motion.div variants={projectHover} className='third41'>
+                                <p className='inhead' style={{ color: "white", fontSize: "1.3rem" }}>UI Clone</p>
+                                <p>A simple yet clean and responsive design replicating the original layout with precision.</p>
+                                <div className="proo12">
+                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}>HTML</span>
+                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}>CSS</span>
+                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}>JavaScript</span>
+                                </div>
+                                <div className="proo13" style={{ marginTop: "auto" }}>
+                                    <div onClick={() => window.location.href = 'https://github.com/Abi04nash/TwoGoodCo-Clone-'} > <i className="fa-brands fa-github"></i> Code</div>
+                                    <div onClick={() => window.location.href = 'https://abi04nash.github.io/TwoGoodCo-Clone-/'} style={{ background: "linear-gradient(to right, #d8b4fe, #3b82f6)" }}><i className="fa-solid fa-eye"></i> Demo</div>
+                                </div>
+                            </motion.div>
 
                        
                             <motion.div variants={projectHover} className='third41'>
@@ -209,20 +228,6 @@ const Third = () => {
                                 </div>
                             </motion.div>
 
-                           
-                            <motion.div variants={projectHover} className='third41'>
-                                <p className='inhead' style={{ color: "white", fontSize: "1.3rem" }}>Portfolio</p>
-                                <p>The latest iteration of my personal portfolio website, built with React.js and CSS.</p>
-                                <div className="proo12">
-                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}>ReactJS</span>
-                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}>React Router</span>
-                                    <span style={{ textAlign: "center", fontWeight: "600", display: "flex", justifyContent: "center", alignItems: "center", padding: "5px", paddingLeft: "10px", paddingRight: "10px", borderRadius: "20px" }}>CSS</span>
-                                </div>
-                                <div className="proo13" style={{ marginTop: "auto" }}>
-                                    <div onClick={() => window.location.href = 'https://github.com/Abi04nash/AviPortfolio'} > <i className="fa-brands fa-github"></i> Code</div>
-                                    <div onClick={() => window.location.href = 'https://abi04nash.github.io/AviPortfolio/'} style={{ background: "linear-gradient(to right, #d8b4fe, #3b82f6)" }}><i className="fa-solid fa-eye"></i> Demo</div>
-                                </div>
-                            </motion.div>
 
                         </div>
                     </motion.div>
