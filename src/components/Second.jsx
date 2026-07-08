@@ -121,7 +121,7 @@ const Second = () => {
                 <p className='inhead' style={{ fontSize: '1.5rem', color: "white" }}>Codeforces</p>
               </div>
               <div className='card-stats'>
-                <p><span>Max Rating</span> <strong>1219</strong></p>
+                <p><span>Max Rating</span> <strong>1222</strong></p>
                 <p><span>Problems Solved</span> <strong>200+</strong></p>
                 <p><span>Level</span> <strong style={{ color: 'green' }}>Pupil</strong></p>
               </div>
