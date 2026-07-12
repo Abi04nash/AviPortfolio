@@ -42,3 +42,10 @@ It serves as both a **personal brand** and a **resume-friendly showcase**.
 <img width="1864" height="887" alt="Screenshot 2025-11-17 165347" src="https://github.com/user-attachments/assets/2e5c81e0-d445-4b4b-8391-bc3d1e035b02" />
 
 
+---
+
+## 👨‍💻 Author
+
+**Abinash Mishra**
+
+Built with ❤️ using React.
