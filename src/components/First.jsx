@@ -51,7 +51,7 @@ const BackgroundLayer = () => {
         position: 'absolute',
         inset: 0,
         // background: `linear-gradient(to bottom, rgba(9, 9, 11, 0.5), rgba(9, 9, 11, 0.95))`
-        background: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85))`
+        background: `linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.85))`
 
       }} />
     </div>

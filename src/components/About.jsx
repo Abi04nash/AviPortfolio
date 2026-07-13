@@ -17,7 +17,7 @@ const About = () => {
         minWidth: '100%',
         margin: '0 auto',
         backgroundColor: "#0b0b0b",
-        border:"0.0001rem solid rgb(65, 64, 64)",
+        border:"0.01rem solid rgb(65, 64, 64)",
         borderRadius: '10px',
         boxShadow: '0 0 10px rgba(0,0,0,0.5)',
       }}
